@@ -180,7 +180,7 @@ php artisan lokalise:upload
 
 ```
 
-![alt text](https://github.com/najibismail/laravel-lokaliase/blob/master/docs/images/lokalise-download.png?raw=true)
+![alt text](https://github.com/najibismail/laravel-lokaliase/blob/master/docs/images/lokalise-upload.png?raw=true)
 
 This will upload your base language file up to lokalise.com replacing what is currently there and adding additional key.
 
@@ -192,6 +192,6 @@ This will upload your base language file up to lokalise.com replacing what is cu
 php artisan lokalise:download
 
 ```
-![alt text](https://github.com/najibismail/laravel-lokaliase/blob/master/docs/images/lokalise-upload.png?raw=true)
+![alt text](https://github.com/najibismail/laravel-lokaliase/blob/master/docs/images/lokalise-download.png?raw=true)
 
 Download language from lokalise.com to your laravel project. 
