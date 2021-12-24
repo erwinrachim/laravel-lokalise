@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "^7.0|^8.0",
-        "illuminate/support": "^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
         "lokalise/php-lokalise-api": "^4.0",
         "spatie/emoji": "^3.0"
     },
