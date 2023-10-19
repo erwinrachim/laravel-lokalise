@@ -1,6 +1,6 @@
 <?php
 
-namespace Najibismail\LaravelLokalise\Tests;
+namespace Erwinrachim\LaravelLokalise\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -16,7 +16,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \Najibismail\LaravelLokalise\LaravelLokaliseServiceProvider::class,
+            \Erwinrachim\LaravelLokalise\LaravelLokaliseServiceProvider::class,
         ];
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Najibismail\LaravelLokalise\Commands;
+namespace Erwinrachim\LaravelLokalise\Commands;
 
 use Illuminate\Console\Command;
 use Lokalise\LokaliseApiClient;

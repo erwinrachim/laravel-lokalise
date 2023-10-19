@@ -1,13 +1,13 @@
 <?php
 
-namespace Najibismail\LaravelLokalise;
+namespace Erwinrachim\LaravelLokalise;
 
 use Illuminate\Support\ServiceProvider;
 
 class LaravelLokaliseServiceProvider extends ServiceProvider
 {
     const ROOT = __DIR__ . '/../';
-    
+
     /**
      * Register services.
      *

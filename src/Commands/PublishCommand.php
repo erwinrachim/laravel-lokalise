@@ -1,6 +1,6 @@
 <?php
 
-namespace Najibismail\LaravelLokalise\Commands;
+namespace Erwinrachim\LaravelLokalise\Commands;
 
 use Illuminate\Console\Command;
 
@@ -39,7 +39,7 @@ class PublishCommand extends Command
     {
         $this->info('[Laravel Lokalise] Publishing config ...');
         $this->call('vendor:publish', [
-            '--provider' => 'Najibismail\LaravelLokalise\LaravelLokaliseServiceProvider'
+            '--provider' => 'Erwinrachim\LaravelLokalise\LaravelLokaliseServiceProvider'
         ]);
     }
 }
