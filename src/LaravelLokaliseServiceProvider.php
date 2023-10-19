@@ -29,10 +29,13 @@ class LaravelLokaliseServiceProvider extends ServiceProvider
             self::ROOT . 'config/lokalise.php' => config_path('lokalise'),
         ]);
 
+        $this->commands([
+            Commands\DownloadCommand::class,
+        ]);
+
         if ($this->app->runningInConsole()) {
             $this->commands([
                 Commands\UploadCommand::class,
-                Commands\DownloadCommand::class,
                 Commands\PublishCommand::class,
             ]);
         }
