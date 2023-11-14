@@ -58,8 +58,9 @@ class DownloadCommand extends Command
                 $this->project_id,
                 [
                     'format' => config('lokalise.download.format'),
-                    'original_filenames' => true,
+                    'original_filenames' => config('lokalise.download.original_filenames'),
                     'directory_prefix' => config('lokalise.download.directory_prefix'),
+                    'bundle_structure' => config('lokalise.download.bundle_structure'),
                     'filter_langs' => sizeof($this->filter_langs) == 0 ? $this->getLanguageList() : $this->filter_langs,
                     'language_mapping' => config('lokalise.download.langs_mapping'),
                     'replace_breaks' => false,
