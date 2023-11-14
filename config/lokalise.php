@@ -117,7 +117,11 @@ return [
 
       'format' => env('LOKALISE_DOWNLOAD_FORMAT', 'php'),
 
+      'original_filenames' => true,
+
       'directory_prefix' => '/%LANG_ISO%/',
+
+      'bundle_structure' => '%LANG_ISO%.%FORMAT%',
 
       'filter_langs' => [],
 
